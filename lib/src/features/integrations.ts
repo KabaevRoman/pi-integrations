@@ -1,3 +1,3 @@
 import type { ExtensionAPI } from '@earendil-works/pi-coding-agent';
-import { acquire } from '@kabaevroman/pi-code-core';
+import { acquire } from '@pi-ko/core';
 export default function(pi: ExtensionAPI): void { if (!acquire(pi, 'integrations')) return; pi.registerCommand('cc-integrations',{description:'integrations compatibility status',handler:async (_args,ctx)=>ctx.ui.notify('integrations: the reference adapter is not implemented. Existing pi extension tools remain unchanged.','info')}); }
