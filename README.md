@@ -2,7 +2,7 @@
 
 Independently installable pi extension: integrations. Former package name: `pi-claude-integrations`.
 
-This status-command extension has no core dependency.
+This extension uses `pi-code-core@0.5.0` to prevent duplicate registration when combined with the bundle.
 
 The new package name is not yet published. Publish `pi-code-core` first, then this package. Once released, install this package through pi's package manager; its npm dependencies provide the shared core automatically. For local development, use the parent npm workspace and build core before running this extension. To distribute before publication, provide both core and extension tarballs.
 
