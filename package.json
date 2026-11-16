@@ -1,6 +1,6 @@
 {
-  "name": "pi-claude-integrations",
-  "version": "0.3.0",
+  "name": "pi-code-integrations",
+  "version": "0.5.0",
   "type": "module",
   "keywords": [
     "pi-package"
@@ -18,5 +18,20 @@
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "1.5.2",
     "typebox": "1.3.27"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.19.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabaevRoman/pi-integrations.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
