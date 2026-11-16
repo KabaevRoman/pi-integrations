@@ -1,6 +1,6 @@
 # @kabaevroman/pi-code-integrations
 
-Independently installable pi extension: integrations. Former package name: `pi-claude-integrations`.
+Independently installable pi extension: integrations.
 
 This extension uses `@kabaevroman/pi-code-core@0.5.0` to prevent duplicate registration when combined with the bundle.
 
